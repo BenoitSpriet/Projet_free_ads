@@ -38,11 +38,11 @@ Please check the official laravel installation guide for server requirements bef
 
 Clone the repository
 
-    git clone git@github.com:EpitechIT2020/C-DEV-120-FR-1-1-freeads-benoit1.spriet.git
+    git clone git@github.com:BenoitSpriet/Projet_free_ads.git
 
 Switch to the repo folder
 
-    cd C-DEV-120-FR-1-1-freeads-benoit1.spriet
+    cd Projet_free_ads
 
 Install all the dependencies using composer
 
@@ -64,8 +64,8 @@ You can now access the server at http://localhost:8000
 
 **TL;DR command list**
 
-    git clone git@github.com:EpitechIT2020/C-DEV-120-FR-1-1-freeads-benoit1.spriet.git
-    cd C-DEV-120-FR-1-1-freeads-benoit1.spriet
+    git clone git@github.com:BenoitSpriet/Projet_free_ads.git
+    cd Projet_free_ads
     composer install
     cp .env.example .env
     
@@ -91,6 +91,11 @@ Run the database seeder and you're done
 ***Note*** : It's recommended to have a clean database before seeding. You can refresh your migrations at any point to clean the database by running the following command
 
     php artisan migrate:refresh
+
+Which is a shortcuts for
+
+    php artisan migrate:rollback
+    php artisan migrate
     
 # Code overview
 
